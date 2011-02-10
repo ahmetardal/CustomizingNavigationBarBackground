@@ -38,7 +38,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					924,
+					813,
 					20,
 					48,
 					43,
@@ -61,6 +61,10 @@
 		perUserProjectItems = {
 			E38246C31304A49E00C621FD /* PBXTextBookmark */ = E38246C31304A49E00C621FD /* PBXTextBookmark */;
 			E38246CC1304A84800C621FD /* PBXTextBookmark */ = E38246CC1304A84800C621FD /* PBXTextBookmark */;
+			E38246D51304A93600C621FD /* PBXTextBookmark */ = E38246D51304A93600C621FD /* PBXTextBookmark */;
+			E38246D61304A93600C621FD /* PBXTextBookmark */ = E38246D61304A93600C621FD /* PBXTextBookmark */;
+			E38246D71304A93600C621FD /* PBXBookmark */ = E38246D71304A93600C621FD /* PBXBookmark */;
+			E38246D81304A93600C621FD /* PBXTextBookmark */ = E38246D81304A93600C621FD /* PBXTextBookmark */;
 			E3F2278213046B9A00B1F4C0 = E3F2278213046B9A00B1F4C0 /* PlistBookmark */;
 			E3F227A713046F2F00B1F4C0 = E3F227A713046F2F00B1F4C0 /* PBXTextBookmark */;
 			E3F227C71304743500B1F4C0 = E3F227C71304743500B1F4C0 /* PBXBookmark */;
@@ -96,6 +100,55 @@
 		rLoc = 1324;
 		rType = 0;
 		vrLen = 1324;
+		vrLoc = 0;
+	};
+	E38246CF1304A92900C621FD /* ModalViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 718}}";
+			sepNavSelRange = "{263, 0}";
+			sepNavVisRange = "{0, 263}";
+		};
+	};
+	E38246D01304A92900C621FD /* ModalViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{289, 54}\";\n            s = 0;\n        },\n                {\n            r = \"{371, 576}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 1265}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {991, 718}}";
+			sepNavSelRange = "{637, 0}";
+			sepNavVisRange = "{0, 637}";
+		};
+	};
+	E38246D51304A93600C621FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */;
+		name = "UINavigationBar+CustomBackground.m: 53";
+		rLen = 0;
+		rLoc = 1324;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 0;
+	};
+	E38246D61304A93600C621FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E38246CF1304A92900C621FD /* ModalViewController.h */;
+		name = "ModalViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 0;
+	};
+	E38246D71304A93600C621FD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E38246D01304A92900C621FD /* ModalViewController.m */;
+	};
+	E38246D81304A93600C621FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E38246D01304A92900C621FD /* ModalViewController.m */;
+		name = "ModalViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1323;
 		vrLoc = 0;
 	};
 	E3F226ED13045F8900B1F4C0 /* CustomizingNavigationBarBackground */ = {
@@ -159,17 +212,16 @@
 	};
 	E3F227161304672A00B1F4C0 /* ChildViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {982, 741}}";
+			sepNavIntBoundsRect = "{{0, 0}, {991, 718}}";
 			sepNavSelRange = "{195, 0}";
 			sepNavVisRange = "{0, 263}";
 		};
 	};
 	E3F227171304672A00B1F4C0 /* ChildViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{288, 66}\";\n            s = 0;\n        },\n                {\n            r = \"{382, 570}\";\n            s = 0;\n        },\n                {\n            r = \"{1051, 19}\";\n            s = 0;\n        },\n                {\n            r = \"{1110, 40}\";\n            s = 0;\n        },\n                {\n            r = \"{1180, 30}\";\n            s = 0;\n        },\n                {\n            r = \"{1234, 24}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 1269}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {982, 741}}";
-			sepNavSelRange = "{526, 0}";
-			sepNavVisRange = "{0, 526}";
+			sepNavIntBoundsRect = "{{0, 0}, {991, 864}}";
+			sepNavSelRange = "{464, 0}";
+			sepNavVisRange = "{0, 1293}";
 		};
 	};
 	E3F2278213046B9A00B1F4C0 /* PlistBookmark */ = {
@@ -203,7 +255,7 @@
 	E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{316, 159}\";\n            s = 0;\n        },\n                {\n            r = \"{513, 160}\";\n            s = 0;\n        },\n                {\n            r = \"{744, 474}\";\n            s = 0;\n        },\n                {\n            r = \"{1255, 58}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 1324}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1102, 741}}";
+			sepNavIntBoundsRect = "{{0, 0}, {991, 718}}";
 			sepNavSelRange = "{477, 0}";
 			sepNavVisRange = "{0, 477}";
 		};
@@ -271,7 +323,7 @@
 		fRef = E3F227171304672A00B1F4C0 /* ChildViewController.m */;
 		name = "ChildViewController.m: 55";
 		rLen = 0;
-		rLoc = 1269;
+		rLoc = 1344;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 0;

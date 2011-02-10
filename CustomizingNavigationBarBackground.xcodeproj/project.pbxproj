@@ -14,6 +14,8 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		E38246CA1304A83900C621FD /* navbar_bg_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E38246C81304A83900C621FD /* navbar_bg_landscape@2x.png */; };
 		E38246CB1304A83900C621FD /* navbar_bg_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E38246C91304A83900C621FD /* navbar_bg_portrait@2x.png */; };
+		E38246D21304A92900C621FD /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38246D01304A92900C621FD /* ModalViewController.m */; };
+		E38246D31304A92900C621FD /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38246D11304A92900C621FD /* ModalViewController.xib */; };
 		E3F227141304671500B1F4C0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F227121304671500B1F4C0 /* RootViewController.m */; };
 		E3F227191304672A00B1F4C0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F227171304672A00B1F4C0 /* ChildViewController.m */; };
 		E3F2273A1304680E00B1F4C0 /* navbar_bg_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F227341304680E00B1F4C0 /* navbar_bg_landscape.png */; };
@@ -36,6 +38,9 @@
 		32CA4F630368D1EE00C91783 /* CustomizingNavigationBarBackground_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizingNavigationBarBackground_Prefix.pch; sourceTree = "<group>"; };
 		E38246C81304A83900C621FD /* navbar_bg_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg_landscape@2x.png"; sourceTree = "<group>"; };
 		E38246C91304A83900C621FD /* navbar_bg_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg_portrait@2x.png"; sourceTree = "<group>"; };
+		E38246CF1304A92900C621FD /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		E38246D01304A92900C621FD /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		E38246D11304A92900C621FD /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModalViewController.xib; path = ../../Classes/ModalViewController.xib; sourceTree = "<group>"; };
 		E3F227111304671500B1F4C0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E3F227121304671500B1F4C0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E3F227161304672A00B1F4C0 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
@@ -71,6 +76,8 @@
 				E3F227121304671500B1F4C0 /* RootViewController.m */,
 				E3F227161304672A00B1F4C0 /* ChildViewController.h */,
 				E3F227171304672A00B1F4C0 /* ChildViewController.m */,
+				E38246CF1304A92900C621FD /* ModalViewController.h */,
+				E38246D01304A92900C621FD /* ModalViewController.m */,
 				E3F227B513046FF200B1F4C0 /* UINavigationBar+CustomBackground.h */,
 				E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */,
 				1D3623240D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.h */,
@@ -142,6 +149,7 @@
 		E3F227361304680E00B1F4C0 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				E38246D11304A92900C621FD /* ModalViewController.xib */,
 				E3F227371304680E00B1F4C0 /* ChildViewController.xib */,
 				E3F227391304680E00B1F4C0 /* RootViewController.xib */,
 				E3F227381304680E00B1F4C0 /* MainWindow.xib */,
@@ -209,6 +217,7 @@
 				E3F2276E13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist in Resources */,
 				E38246CA1304A83900C621FD /* navbar_bg_landscape@2x.png in Resources */,
 				E38246CB1304A83900C621FD /* navbar_bg_portrait@2x.png in Resources */,
+				E38246D31304A92900C621FD /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +233,7 @@
 				E3F227141304671500B1F4C0 /* RootViewController.m in Sources */,
 				E3F227191304672A00B1F4C0 /* ChildViewController.m in Sources */,
 				E3F227B713046FF200B1F4C0 /* UINavigationBar+CustomBackground.m in Sources */,
+				E38246D21304A92900C621FD /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,21 @@
 //
 
 #import "ChildViewController.h"
+#import "ModalViewController.h"
+#import "UINavigationBar+CustomBackground.h"
 
 @implementation ChildViewController
 
 - (IBAction) doneButtonPressed:(id)sender
 {
-    [self.navigationController popViewControllerAnimated:YES];
+    ModalViewController *_modalViewController =
+        [[ModalViewController alloc] initWithNibName:@"ModalViewController" bundle:nil];
+    UINavigationController *navController =
+        [[UINavigationController alloc] initWithRootViewController:_modalViewController];
+    [navController.navigationBar applyCustomTintColor];
+    [self presentModalViewController:navController animated:YES];
+    [_modalViewController release];
+    [navController release];
 }
 
 - (void) viewDidLoad
@@ -23,7 +32,7 @@
     //
     // add a right bar button to navbar
     //
-    UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done"
+    UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithTitle:@"Modal"
                                                                    style:UIBarButtonItemStylePlain
                                                                   target:self
                                                                   action:@selector(doneButtonPressed:)];
