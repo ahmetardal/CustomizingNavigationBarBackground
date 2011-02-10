@@ -38,9 +38,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					804,
+					924,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -55,26 +55,48 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319053705;
-			PBXWorkspaceStateSaveDate = 319053705;
+			PBXPerProjectTemplateStateSaveDate = 319071383;
+			PBXWorkspaceStateSaveDate = 319071383;
 		};
 		perUserProjectItems = {
-			E3F2278213046B9A00B1F4C0 /* PlistBookmark */ = E3F2278213046B9A00B1F4C0 /* PlistBookmark */;
-			E3F227A713046F2F00B1F4C0 /* PBXTextBookmark */ = E3F227A713046F2F00B1F4C0 /* PBXTextBookmark */;
-			E3F227C71304743500B1F4C0 /* PBXBookmark */ = E3F227C71304743500B1F4C0 /* PBXBookmark */;
-			E3F227C81304743500B1F4C0 /* PBXBookmark */ = E3F227C81304743500B1F4C0 /* PBXBookmark */;
-			E3F227D41304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D41304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227D51304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D51304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227D61304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D61304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227D71304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D71304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227D81304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D81304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227D91304758C00B1F4C0 /* PBXTextBookmark */ = E3F227D91304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227DA1304758C00B1F4C0 /* PBXTextBookmark */ = E3F227DA1304758C00B1F4C0 /* PBXTextBookmark */;
-			E3F227DD1304783E00B1F4C0 /* PBXTextBookmark */ = E3F227DD1304783E00B1F4C0 /* PBXTextBookmark */;
+			E38246C31304A49E00C621FD /* PBXTextBookmark */ = E38246C31304A49E00C621FD /* PBXTextBookmark */;
+			E38246CC1304A84800C621FD /* PBXTextBookmark */ = E38246CC1304A84800C621FD /* PBXTextBookmark */;
+			E3F2278213046B9A00B1F4C0 = E3F2278213046B9A00B1F4C0 /* PlistBookmark */;
+			E3F227A713046F2F00B1F4C0 = E3F227A713046F2F00B1F4C0 /* PBXTextBookmark */;
+			E3F227C71304743500B1F4C0 = E3F227C71304743500B1F4C0 /* PBXBookmark */;
+			E3F227C81304743500B1F4C0 = E3F227C81304743500B1F4C0 /* PBXBookmark */;
+			E3F227D41304758C00B1F4C0 = E3F227D41304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227D51304758C00B1F4C0 = E3F227D51304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227D61304758C00B1F4C0 = E3F227D61304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227D71304758C00B1F4C0 = E3F227D71304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227D81304758C00B1F4C0 = E3F227D81304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227D91304758C00B1F4C0 = E3F227D91304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227DA1304758C00B1F4C0 = E3F227DA1304758C00B1F4C0 /* PBXTextBookmark */;
+			E3F227DD1304783E00B1F4C0 = E3F227DD1304783E00B1F4C0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E3F226F713045FA900B1F4C0 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	E38246C31304A49E00C621FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */;
+		name = "UINavigationBar+CustomBackground.m: 53";
+		rLen = 0;
+		rLoc = 1324;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 0;
+	};
+	E38246CC1304A84800C621FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */;
+		name = "UINavigationBar+CustomBackground.m: 53";
+		rLen = 0;
+		rLoc = 1324;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 0;
 	};
 	E3F226ED13045F8900B1F4C0 /* CustomizingNavigationBarBackground */ = {
 		isa = PBXExecutable;
@@ -159,7 +181,7 @@
 		);
 		name = "/Users/ahmet/Documents/CustomizingNavigationBarBackground/CustomizingNavigationBarBackground-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	E3F227A713046F2F00B1F4C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -181,7 +203,7 @@
 	E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{316, 159}\";\n            s = 0;\n        },\n                {\n            r = \"{513, 160}\";\n            s = 0;\n        },\n                {\n            r = \"{744, 474}\";\n            s = 0;\n        },\n                {\n            r = \"{1255, 58}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 1324}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {982, 741}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 741}}";
 			sepNavSelRange = "{477, 0}";
 			sepNavVisRange = "{0, 477}";
 		};
