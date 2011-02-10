@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		E3F227141304671500B1F4C0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F227121304671500B1F4C0 /* RootViewController.m */; };
+		E3F227191304672A00B1F4C0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F227171304672A00B1F4C0 /* ChildViewController.m */; };
+		E3F2273A1304680E00B1F4C0 /* navbar_bg_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F227341304680E00B1F4C0 /* navbar_bg_landscape.png */; };
+		E3F2273B1304680E00B1F4C0 /* navbar_bg_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F227351304680E00B1F4C0 /* navbar_bg_portrait.png */; };
+		E3F2273C1304680E00B1F4C0 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F227371304680E00B1F4C0 /* ChildViewController.xib */; };
+		E3F2273D1304680E00B1F4C0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F227381304680E00B1F4C0 /* MainWindow.xib */; };
+		E3F2273E1304680E00B1F4C0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F227391304680E00B1F4C0 /* RootViewController.xib */; };
+		E3F2276E13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3F2276D13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist */; };
+		E3F227B713046FF200B1F4C0 /* UINavigationBar+CustomBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizingNavigationBarBackgroundAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizingNavigationBarBackgroundAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CustomizingNavigationBarBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizingNavigationBarBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CustomizingNavigationBarBackground_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizingNavigationBarBackground_Prefix.pch; sourceTree = "<group>"; };
+		E3F227111304671500B1F4C0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E3F227121304671500B1F4C0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E3F227161304672A00B1F4C0 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		E3F227171304672A00B1F4C0 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		E3F227341304680E00B1F4C0 /* navbar_bg_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg_landscape.png; sourceTree = "<group>"; };
+		E3F227351304680E00B1F4C0 /* navbar_bg_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg_portrait.png; sourceTree = "<group>"; };
+		E3F227371304680E00B1F4C0 /* ChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
+		E3F227381304680E00B1F4C0 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		E3F227391304680E00B1F4C0 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E3F2276D13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CustomizingNavigationBarBackground-Info.plist"; path = "../CustomizingNavigationBarBackground-Info.plist"; sourceTree = "<group>"; };
+		E3F227B513046FF200B1F4C0 /* UINavigationBar+CustomBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomBackground.h"; sourceTree = "<group>"; };
+		E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomBackground.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3F227111304671500B1F4C0 /* RootViewController.h */,
+				E3F227121304671500B1F4C0 /* RootViewController.m */,
+				E3F227161304672A00B1F4C0 /* ChildViewController.h */,
+				E3F227171304672A00B1F4C0 /* ChildViewController.m */,
+				E3F227B513046FF200B1F4C0 /* UINavigationBar+CustomBackground.h */,
+				E3F227B613046FF200B1F4C0 /* UINavigationBar+CustomBackground.m */,
+				1D3623240D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CustomizingNavigationBarBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				E3F227321304680E00B1F4C0 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CustomizingNavigationBarBackground_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F227321304680E00B1F4C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3F227331304680E00B1F4C0 /* Graphics */,
+				E3F227361304680E00B1F4C0 /* XIBs */,
+				E3F2276D13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3F227331304680E00B1F4C0 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E3F227341304680E00B1F4C0 /* navbar_bg_landscape.png */,
+				E3F227351304680E00B1F4C0 /* navbar_bg_portrait.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		E3F227361304680E00B1F4C0 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E3F227371304680E00B1F4C0 /* ChildViewController.xib */,
+				E3F227391304680E00B1F4C0 /* RootViewController.xib */,
+				E3F227381304680E00B1F4C0 /* MainWindow.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CustomizingNavigationBarBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomizingNavigationBarBackground" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomizingNavigationBarBackground;
+			productName = CustomizingNavigationBarBackground;
+			productReference = 1D6058910D05DD3D006BFB54 /* CustomizingNavigationBarBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LiveGO;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomizingNavigationBarBackground" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CustomizingNavigationBarBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F2273A1304680E00B1F4C0 /* navbar_bg_landscape.png in Resources */,
+				E3F2273B1304680E00B1F4C0 /* navbar_bg_portrait.png in Resources */,
+				E3F2273C1304680E00B1F4C0 /* ChildViewController.xib in Resources */,
+				E3F2273D1304680E00B1F4C0 /* MainWindow.xib in Resources */,
+				E3F2273E1304680E00B1F4C0 /* RootViewController.xib in Resources */,
+				E3F2276E13046B0D00B1F4C0 /* CustomizingNavigationBarBackground-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CustomizingNavigationBarBackgroundAppDelegate.m in Sources */,
+				E3F227141304671500B1F4C0 /* RootViewController.m in Sources */,
+				E3F227191304672A00B1F4C0 /* ChildViewController.m in Sources */,
+				E3F227B713046FF200B1F4C0 /* UINavigationBar+CustomBackground.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomizingNavigationBarBackground_Prefix.pch;
+				INFOPLIST_FILE = "CustomizingNavigationBarBackground-Info.plist";
+				PRODUCT_NAME = CustomizingNavigationBarBackground;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomizingNavigationBarBackground_Prefix.pch;
+				INFOPLIST_FILE = "CustomizingNavigationBarBackground-Info.plist";
+				PRODUCT_NAME = CustomizingNavigationBarBackground;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomizingNavigationBarBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomizingNavigationBarBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
