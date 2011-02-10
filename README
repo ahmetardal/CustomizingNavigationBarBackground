@@ -1,0 +1,9 @@
+* This is a demo project that shows how to customize the appearance of UINavigationBar in 
+iPhone apps by drawing custom backgrounds and changing the tint color. The method i used in this 
+project is based on modifying the look of all UINavigationBars in an application-wide manner, however it 
+is really easy to implement the same functionality to make it work with single UINavigationBar instances.
+
+For questions and suggestions contact me at:
+http://twitter.com/ardalahmet
+or
+ardalahmet(at)gmail.com
