@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,12 +266,10 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>E3F227321304680E00B1F4C0</string>
-								<string>E3F227361304680E00B1F4C0</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
 									<integer>15</integer>
 									<integer>13</integer>
 									<integer>0</integer>
@@ -310,12 +306,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ModalViewController.m</string>
+								<string>ChildViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,15 +321,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ModalViewController.m</string>
+										<string>ChildViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E38246D81304A93600C621FD</string>
+										<string>E38246FB1304AC4A00C621FD</string>
 										<key>history</key>
 										<array>
 											<string>E3F2278213046B9A00B1F4C0</string>
-											<string>E3F227A713046F2F00B1F4C0</string>
 											<string>E3F227C71304743500B1F4C0</string>
 											<string>E3F227C81304743500B1F4C0</string>
 											<string>E3F227D41304758C00B1F4C0</string>
@@ -339,10 +336,11 @@
 											<string>E3F227D61304758C00B1F4C0</string>
 											<string>E3F227D71304758C00B1F4C0</string>
 											<string>E3F227D81304758C00B1F4C0</string>
-											<string>E3F227D91304758C00B1F4C0</string>
 											<string>E38246D51304A93600C621FD</string>
-											<string>E38246D61304A93600C621FD</string>
-											<string>E38246D71304A93600C621FD</string>
+											<string>E38246F71304AC4A00C621FD</string>
+											<string>E38246F81304AC4A00C621FD</string>
+											<string>E38246F91304AC4A00C621FD</string>
+											<string>E38246FA1304AC4A00C621FD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
