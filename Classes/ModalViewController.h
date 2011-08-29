@@ -3,7 +3,7 @@
 //  CustomizingNavigationBarBackground
 //
 //  Created by Ahmet Ardal on 2/11/11.
-//  Copyright 2011 LiveGO. All rights reserved.
+//  Copyright 2011 SpinningSphere Labs. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
